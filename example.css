@@ -1,0 +1,255 @@
+/* General Styles */
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    color: #630d0d;
+    background-color: #f3caca;
+}
+
+/* Header Styles */
+header {
+    background-color: #e67c7c;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 90%, 20%);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about img, #about video {
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* Services Section */
+#services .service {
+    margin: 20px 0;
+}
+
+/* Testimonials Section */
+.testimonial {
+    margin: 20px 0;
+}
+
+/* Gallery Section */
+.gallery-container {
+    display: flex; /* Flexbox to align items horizontally */
+    justify-content: center; /* Optional: Centers the images horizontally */
+    gap: 20px; /* Adds space between images */
+}
+
+/* Style for each image */
+.image {
+    width: 300px; /* Set the width of each image */
+    height: auto; /* Maintains the aspect ratio */
+    border: 2px solid #000; /* Optional: Adds a border around the images */
+}
+
+.image {
+    width: 150px; /* Set the width of each image */
+    height: auto; /* Maintains the aspect ratio */
+    border: 2px solid #000;
+}
+
+/* Blog Section */
+#blog input[type="search"] {
+    padding: 10px;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.blog-post {
+    margin: 20px 0;
+}
+
+/* Contact Form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contact form input, #contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Contact Details */
+.contact-details {
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* Facilities Section */
+#facilities ul {
+    list-style: none;
+    padding: 0;
+}
+
+#facilities ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+footer .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Form Container */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, select:focus {
+    border-color: #5c9df6;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Success Message */
+.hidden {
+    display: none;
+}
+
+#success-message {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    padding-top: 10px;
+}

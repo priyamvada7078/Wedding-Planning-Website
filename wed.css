@@ -1,0 +1,627 @@
+body {
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+  padding: 0;
+  color: #ec1414;
+  background-color : #f3caca;
+}
+/* Apply the background image to the body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('bcck.jpg'); /* Path to your image file */
+  background-size: cover; /* Ensures the background covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+  height: 50vh; 
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center; /* Centers text horizontally */
+  color:rgb(223, 24, 24)
+}
+
+
+
+
+.logo {
+  width: 300px;
+  height: 500; 
+  position: fixed;
+  top: 55px; 
+  left: 7px;
+  z-index: 1000;
+}
+
+
+
+
+
+
+.content {
+  color: rgb(226, 187, 187); /* Text color */
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
+  border-radius: 10px;
+  margin-top: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px; /* Ensure enough height to scroll */
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/* Header Styles */
+header {
+  background-color: #d62525;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 87%, 53%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #f81010;
+  color: #e3e9ef;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about img, #about video {
+  width: 50%;
+  margin-top: 20px;
+}
+
+/* Services Section */
+#services .service {
+  margin: 20px 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.image-container img {
+  width: 400px;  /* Adjust the size as needed */
+  height: auto;
+  border-radius: 8px;  /* Optional: adds rounded corners to the images */
+}
+* Testimonials Section */
+.testimonial {
+  margin: 20px 0;
+   /* Tomato red */ 
+}
+
+/* Gallery Section */
+.gallery-container img{
+  display: flex; /* Flexbox to align items horizontally */
+  justify-content: space-between; /* Optional: Centers the images horizontally */
+  gap: 4px; /* Adds space between images */
+}
+
+/* Style for each image */
+.image {
+  width: 300px; /* Set the width of each image */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 6px solid #000; /* Optional: Adds a border around the images */
+}
+
+.image {
+  width: 300px; /* Set the width of each image */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 6px solid #000;
+}
+
+/* Blog Section */
+#blog input[type="search"] {
+  padding: 10px;
+  width: 80%;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.blog-post {
+  margin: 20px 0;
+}
+
+/* Contact Form */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#contact form input, #contact form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Contact Details */
+.contact-details {
+  text-align: left;
+  margin: 20px 0;
+}
+
+/* Facilities Section */
+#facilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+#facilities ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer .newsletter form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+footer .newsletter input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+footer .footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  border-color: #5c9df6;
+  outline: none;
+}
+
+/* Submit Button */
+button {
+  background-color: #40a443;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #44bd4a;
+}
+
+/* Success Message */
+.hidden {
+  display: none;
+}
+
+#success-message {
+  text-align: center;
+  color: green;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+p{
+  color:#033b0f
+}
+body {
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+  padding: 0;
+  color: #971212;
+  background-color : #f3caca;
+}
+/* Apply the background image to the body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('bcck.jpg'); /* Path to your image file */
+  background-size: cover; /* Ensures the background covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-attachment: fixed; /* Makes the background fixed when scrolling */
+  height: 50vh; /* Ensures the body takes full viewport height */
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  color: rgb(240, 114, 114); /* Text color */
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
+  border-radius: 10px;
+  margin-top: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px; /* Ensure enough height to scroll */
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/* Header Styles */
+header {
+  background-color: #f5baba;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: hsl(0, 87%, 53%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #f81010;
+  color: #e3e9ef;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about img, #about video {
+  width: 50%;
+  margin-top: 20px;
+}
+
+/* Services Section */
+#services .service {
+  margin: 20px 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.image-container img {
+  width: 400px;  /* Adjust the size as needed */
+  height: auto;
+  border-radius: 8px;  /* Optional: adds rounded corners to the images */
+}
+* Testimonials Section */
+.testimonial {
+  margin: 20px 0;
+   /* Tomato red */ 
+}
+
+/* Gallery Section */
+.gallery-container img{
+  display: flex; /* Flexbox to align items horizontally */
+  justify-content: space-between; /* Optional: Centers the images horizontally */
+  gap: 4px; /* Adds space between images */
+}
+
+/* Style for each image */
+.image {
+  width: 300px; /* Set the width of each image */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 6px solid #000; /* Optional: Adds a border around the images */
+}
+
+.image {
+  width: 300px; /* Set the width of each image */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 6px solid #000;
+}
+
+/* Blog Section */
+#blog input[type="search"] {
+  padding: 10px;
+  width: 80%;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.blog-post {
+  margin: 20px 0;
+}
+
+/* Contact Form */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#contact form input, #contact form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Contact Details */
+.contact-details {
+  text-align: left;
+  margin: 20px 0;
+}
+
+/* Facilities Section */
+#facilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+#facilities ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer .newsletter form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+footer .newsletter input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+footer .footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  border-color: #5c9df6;
+  outline: none;
+}
+
+/* Submit Button */
+button {
+  background-color: #40a443;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #44bd4a;
+}
+
+/* Success Message */
+.hidden {
+  display: none;
+}
+
+#success-message {
+  text-align: center;
+  color: green;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+p{
+  color:#4a5705
+}
